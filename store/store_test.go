@@ -69,7 +69,7 @@ func TestStore(t *testing.T) {
 		store := store.New(counter)
 
 		subcribing := make(chan bool)
-		store.Subscribe(func() {
+		store.Subscribe(func(action interface{}) {
 			subcribing <- true
 		})
 		go store.Dispatch(0)
@@ -125,8 +125,8 @@ func TestStoreShouldPanicWhen(t *testing.T) {
 		}()
 		foo := func(s int, action int) int { return 0 }
 		store := store.New(foo)
-		store.Subscribe(func() {
-			store.Subscribe(func() {})
+		store.Subscribe(func(action interface{}) {
+			store.Subscribe(func(action interface{}) {})
 		})
 		store.Dispatch(0)
 	})
