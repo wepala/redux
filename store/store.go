@@ -17,7 +17,7 @@ import (
 type Store struct {
 	reducers            map[uintptr]reflect.Value
 	state               map[uintptr]reflect.Value
-	subscribedFuncs     []func()
+	subscribedFuncs     []func(action interface{})
 	dispatch            sync.Mutex
 	subscribe           sync.Mutex
 	subscribedFuncPanic bool
@@ -102,7 +102,7 @@ func (s *Store) Dispatch(action interface{}) {
 				}
 				wg.Done()
 			}()
-			subscribedFunc()
+			subscribedFunc(action)
 		}()
 	}
 	wg.Wait()
@@ -114,7 +114,7 @@ func (s *Store) Dispatch(action interface{}) {
 }
 
 // Subscribe emit a function will be triggered after executing Dispatch
-func (s *Store) Subscribe(function func()) {
+func (s *Store) Subscribe(function func(action interface{})) {
 	s.subscribe.Lock()
 	defer s.subscribe.Unlock()
 	if s.onDispatching {
