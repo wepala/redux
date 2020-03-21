@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dannypsnl/redux/action"
+	"github.com/wepala/redux/action"
 )
 
 func Benchmark_2_Reducers_1_Subscribe(b *testing.B) {

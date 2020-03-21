@@ -1,38 +1,38 @@
 # redux
-[![version badges](https://img.shields.io/badge/version-1.5.1-blue.svg)](https://github.com/dannypsnl/redux/releases)
-[![Build Status](https://travis-ci.org/dannypsnl/redux.svg?branch=master)](https://travis-ci.org/dannypsnl/redux)
-[![Build status](https://ci.appveyor.com/api/projects/status/l2cqebl1svcgyrpo?svg=true)](https://ci.appveyor.com/project/dannypsnl/redux)
-[![Go Report Card](https://goreportcard.com/badge/github.com/dannypsnl/redux)](https://goreportcard.com/report/github.com/dannypsnl/redux)
-[![Coverage Status](https://coveralls.io/repos/github/dannypsnl/redux/badge.svg?branch=master)](https://coveralls.io/github/dannypsnl/redux?branch=master)
-[![GoDoc](https://godoc.org/github.com/dannypsnl/redux/v1?status.svg)](https://godoc.org/github.com/dannypsnl/redux/v1)
-[![GitHub license](https://img.shields.io/github/license/dannypsnl/redux.svg)](https://github.com/dannypsnl/redux/blob/master/LICENSE)
+[![version badges](https://img.shields.io/badge/version-1.5.1-blue.svg)](https://github.com/wepala/redux/releases)
+[![Build Status](https://travis-ci.org/wepala/redux.svg?branch=master)](https://travis-ci.org/wepala/redux)
+[![Build status](https://ci.appveyor.com/api/projects/status/l2cqebl1svcgyrpo?svg=true)](https://ci.appveyor.com/project/wepala/redux)
+[![Go Report Card](https://goreportcard.com/badge/github.com/wepala/redux)](https://goreportcard.com/report/github.com/wepala/redux)
+[![Coverage Status](https://coveralls.io/repos/github/wepala/redux/badge.svg?branch=master)](https://coveralls.io/github/wepala/redux?branch=master)
+[![GoDoc](https://godoc.org/github.com/wepala/redux/v1?status.svg)](https://godoc.org/github.com/wepala/redux/v1)
+[![GitHub license](https://img.shields.io/github/license/wepala/redux.svg)](https://github.com/wepala/redux/blob/master/LICENSE)
 
 This is a redux implementation in Go.<br>
 I hope this project can help you manage the complex update flow in Go.<br>
 [Origin version](https://github.com/reactjs/redux)
 ## Install
 ```bash
-$ go get github.com/dannypsnl/redux
+$ go get github.com/wepala/redux
 ```
 ## Usage
 
 pkgs       | reference
 -----------|--------------------------------------------------------------------------------------------------
-store      | [![store](https://godoc.org/github.com/dannypsnl/redux/v1/store?status.svg)](https://godoc.org/github.com/dannypsnl/redux/v1/store)
-action     | [![action](https://godoc.org/github.com/dannypsnl/redux/v1/action?status.svg)](https://godoc.org/github.com/dannypsnl/redux/v1/action)
-middleware | [![middleware](https://godoc.org/github.com/dannypsnl/redux/v1/middleware?status.svg)](https://godoc.org/github.com/dannypsnl/redux/v1/middleware)
-rematch    | [![rematch](https://godoc.org/github.com/dannypsnl/redux/v1/rematch?status.svg)](https://godoc.org/github.com/dannypsnl/redux/v1/rematch)
+store      | [![store](https://godoc.org/github.com/wepala/redux/v1/store?status.svg)](https://godoc.org/github.com/wepala/redux/v1/store)
+action     | [![action](https://godoc.org/github.com/wepala/redux/v1/action?status.svg)](https://godoc.org/github.com/wepala/redux/v1/action)
+middleware | [![middleware](https://godoc.org/github.com/wepala/redux/v1/middleware?status.svg)](https://godoc.org/github.com/wepala/redux/v1/middleware)
+rematch    | [![rematch](https://godoc.org/github.com/wepala/redux/v1/rematch?status.svg)](https://godoc.org/github.com/wepala/redux/v1/rematch)
 
 ### Example
 
-[Examples](https://github.com/dannypsnl/redux/tree/master/v1/example)
+[Examples](https://github.com/wepala/redux/tree/master/v1/example)
 
 ##### Basic Example
 > Ignore other packages
 ```go
 import(
-    "github.com/dannypsnl/redux/v1/store"
-    "github.com/dannypsnl/redux/v1/action"
+    "github.com/wepala/redux/v1/store"
+    "github.com/wepala/redux/v1/action"
 )
 
 func counter(state interface{}, action action.Action) interface{} {
@@ -61,4 +61,4 @@ func main() {
 }
 ```
 ## Changelogs
-[Changelogs](https://github.com/dannypsnl/redux/blob/master/CHANGELOG.md)
+[Changelogs](https://github.com/wepala/redux/blob/master/CHANGELOG.md)

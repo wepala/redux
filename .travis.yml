@@ -26,8 +26,8 @@ matrix:
 # flunk the build and immediately stop. It's sorta like having
 # set -e enabled in bash.
 before_script:
-  - go get github.com/dannypsnl/redux
-  - go get github.com/dannypsnl/assert
+  - go get github.com/wepala/redux
+  - go get github.com/wepala/assert
   - go get golang.org/x/tools/cmd/cover
 
 # script always run to completion (set +e). All of these code checks are must haves

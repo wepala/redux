@@ -3,7 +3,7 @@ package store
 import (
 	"testing"
 
-	"github.com/dannypsnl/redux/action"
+	"github.com/wepala/redux/action"
 )
 
 func TestDuplicatedReducerShouldCausePanic(t *testing.T) {

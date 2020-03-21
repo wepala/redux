@@ -3,8 +3,8 @@ package rematch
 import (
 	"fmt"
 
-	"github.com/dannypsnl/redux"
-	"github.com/dannypsnl/redux/action"
+	"github.com/wepala/redux"
+	"github.com/wepala/redux/action"
 )
 
 // Reducer provide a readable structure help you build reducer more rematchable

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/dannypsnl/redux/action"
-	"github.com/dannypsnl/redux/store"
+	"github.com/wepala/redux/action"
+	"github.com/wepala/redux/store"
 )
 
 func counter(state interface{}, act action.Action) interface{} {

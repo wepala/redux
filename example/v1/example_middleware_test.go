@@ -3,9 +3,9 @@ package v1_test
 import (
 	"fmt"
 
-	"github.com/dannypsnl/redux/action"
-	"github.com/dannypsnl/redux/middleware"
-	"github.com/dannypsnl/redux/store"
+	"github.com/wepala/redux/action"
+	"github.com/wepala/redux/middleware"
+	"github.com/wepala/redux/store"
 )
 
 func logger(store *store.Store) middleware.Middleware {

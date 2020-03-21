@@ -1,8 +1,8 @@
 package store
 
 import (
-	"github.com/dannypsnl/redux/action"
-	"github.com/dannypsnl/redux/middleware"
+	"github.com/wepala/redux/action"
+	"github.com/wepala/redux/middleware"
 	"sync"
 )
 
