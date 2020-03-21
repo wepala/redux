@@ -93,6 +93,6 @@ func Benchmark_storeSubscribe(b *testing.B) {
 	}
 	store := New(counter)
 	for i := 0; i < b.N; i++ {
-		store.Subscribe(func() {})
+		store.Subscribe(func(action interface{}) {})
 	}
 }
