@@ -3,8 +3,8 @@ package rematch_test
 import (
 	"testing"
 
-	"github.com/dannypsnl/redux/v2/rematch"
-	"github.com/dannypsnl/redux/v2/store"
+	"github.com/wepala/redux/v2/rematch"
+	"github.com/wepala/redux/v2/store"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/dannypsnl/redux/v2/store"
+	"github.com/wepala/redux/v2/store"
 )
 
 func main() {

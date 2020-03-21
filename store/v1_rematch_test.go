@@ -3,8 +3,8 @@ package store
 import (
 	"testing"
 
-	"github.com/dannypsnl/redux/action"
-	"github.com/dannypsnl/redux/rematch"
+	"github.com/wepala/redux/action"
+	"github.com/wepala/redux/rematch"
 
 	"github.com/stretchr/testify/assert"
 )

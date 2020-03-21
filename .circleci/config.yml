@@ -8,7 +8,7 @@ jobs:
       - image: circleci/golang:1.11
         environment:
           GO111MODULE: "on"
-    working_directory: /go/src/github.com/dannypsnl/redux
+    working_directory: /go/src/github.com/wepala/redux
     steps:
       - checkout
       - run: go get -v -t -d ./...

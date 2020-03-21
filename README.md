@@ -1,12 +1,12 @@
 # redux
 
-[![version badges](https://img.shields.io/badge/version-2.2.1-blue.svg)](https://github.com/dannypsnl/redux/releases)
-[![Build Status](https://travis-ci.org/dannypsnl/redux.svg?branch=master)](https://travis-ci.org/dannypsnl/redux)
-[![Build status](https://ci.appveyor.com/api/projects/status/l2cqebl1svcgyrpo?svg=true)](https://ci.appveyor.com/project/dannypsnl/redux)
-[![Go Report Card](https://goreportcard.com/badge/github.com/dannypsnl/redux)](https://goreportcard.com/report/github.com/dannypsnl/redux)
-[![codecov](https://codecov.io/gh/dannypsnl/redux/branch/master/graph/badge.svg)](https://codecov.io/gh/dannypsnl/redux)
-[![GoDoc](https://godoc.org/github.com/dannypsnl/redux?status.svg)](https://godoc.org/github.com/dannypsnl/redux)
-[![GitHub license](https://img.shields.io/github/license/dannypsnl/redux.svg)](https://github.com/dannypsnl/redux/blob/master/LICENSE)
+[![version badges](https://img.shields.io/badge/version-2.2.1-blue.svg)](https://github.com/wepala/redux/releases)
+[![Build Status](https://travis-ci.org/wepala/redux.svg?branch=master)](https://travis-ci.org/wepala/redux)
+[![Build status](https://ci.appveyor.com/api/projects/status/l2cqebl1svcgyrpo?svg=true)](https://ci.appveyor.com/project/wepala/redux)
+[![Go Report Card](https://goreportcard.com/badge/github.com/wepala/redux)](https://goreportcard.com/report/github.com/wepala/redux)
+[![codecov](https://codecov.io/gh/wepala/redux/branch/master/graph/badge.svg)](https://codecov.io/gh/wepala/redux)
+[![GoDoc](https://godoc.org/github.com/wepala/redux?status.svg)](https://godoc.org/github.com/wepala/redux)
+[![GitHub license](https://img.shields.io/github/license/wepala/redux.svg)](https://github.com/wepala/redux/blob/master/LICENSE)
 
 This is a redux implementation in Go.
 
@@ -17,7 +17,7 @@ I hope this project can help you manage the complex update flow in Go.
 ## Install
 
 ```bash
-$ go get github.com/dannypsnl/redux@v2.2.1
+$ go get github.com/wepala/redux@v2.2.1
 ```
 
 ## Usage
@@ -25,11 +25,11 @@ $ go get github.com/dannypsnl/redux@v2.2.1
 ```go
 import (
     // must import, else go module would think following package is a module
-    _ "github.com/dannypsnl/redux/v2"
+    _ "github.com/wepala/redux/v2"
     // v2 store
-    "github.com/dannypsnl/redux/v2/store"
+    "github.com/wepala/redux/v2/store"
     // v2 rematch(optional)
-    "github.com/dannypsnl/redux/v2/rematch"
+    "github.com/wepala/redux/v2/rematch"
 )
 ```
 

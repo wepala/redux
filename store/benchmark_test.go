@@ -3,8 +3,8 @@ package store
 import (
 	"testing"
 
-	"github.com/dannypsnl/redux/action"
-	"github.com/dannypsnl/redux/store"
+	"github.com/wepala/redux/action"
+	"github.com/wepala/redux/store"
 )
 
 func Benchmark_v1_storeDispatch(b *testing.B) {

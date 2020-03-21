@@ -2,7 +2,7 @@ version: "{build}"
 
 platform: x64
 
-clone_folder: c:\gopath\src\github.com\dannypsnl\redux
+clone_folder: c:\gopath\src\github.com\wepala\redux
 
 environment:
   GOPATH: c:\gopath
